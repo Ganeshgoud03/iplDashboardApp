@@ -1,0 +1,165 @@
+.latest-match-bg-container {
+  background-color: #1e293b;
+  height: 80%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.latest-match-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+  border-bottom: 2px solid #475569;
+}
+
+.competing-team {
+  font-size: 20px;
+}
+
+.date {
+  font-size: 20px;
+}
+
+.venue {
+  font-size: 13px;
+}
+
+.result {
+  font-size: 13px;
+}
+
+.competing-team-img {
+  height: 23%;
+  width: 23%;
+}
+
+.first-label {
+  font-size: 15px;
+  padding-left: 3%;
+  font-weight: 500;
+}
+
+.first-innings {
+  font-size: 13px;
+  padding-left: 3%;
+}
+
+.second-label {
+  font-size: 15px;
+  padding-left: 3%;
+  font-weight: 500;
+}
+
+.second-innings {
+  font-size: 13px;
+  padding-left: 3%;
+}
+
+.mom-label {
+  font-size: 15px;
+  padding-left: 3%;
+  font-weight: 500;
+}
+
+.m-o-m {
+  font-size: 13px;
+  padding-left: 3%;
+}
+
+.umpire-label {
+  font-size: 15px;
+  padding-left: 3%;
+  font-weight: 500;
+}
+
+.umpires {
+  font-size: 13px;
+  padding-left: 3%;
+}
+
+@media (min-width: 576px) {
+  .latest-match-bg-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+  }
+
+  .latest-match-card {
+    justify-content: space-between;
+  }
+
+  .competing-team {
+    font-size: 35px;
+  }
+
+  .date {
+    font-size: 25px;
+  }
+
+  .venue {
+    font-size: 16px;
+  }
+
+  .result {
+    font-size: 16px;
+  }
+
+  .competing-team-img {
+    height: 80%;
+    width: 40%;
+  }
+
+  .latest-match-details-1 {
+    text-align: right;
+    margin-right: 3%;
+  }
+
+  .first-label {
+    font-size: 20px;
+    padding-left: 3%;
+    font-weight: 500;
+  }
+
+  .first-innings {
+    font-size: 13px;
+    padding-left: 3%;
+  }
+
+  .second-label {
+    font-size: 20px;
+    padding-left: 3%;
+    font-weight: 500;
+  }
+
+  .second-innings {
+    font-size: 13px;
+    padding-left: 3%;
+  }
+
+  .mom-label {
+    font-size: 20px;
+    padding-left: 3%;
+    font-weight: 500;
+  }
+
+  .m-o-m {
+    font-size: 13px;
+    padding-left: 3%;
+  }
+
+  .umpire-label {
+    font-size: 20px;
+    padding-left: 3%;
+    font-weight: 500;
+  }
+
+  .umpires {
+    font-size: 13px;
+    padding-left: 3%;
+  }
+}

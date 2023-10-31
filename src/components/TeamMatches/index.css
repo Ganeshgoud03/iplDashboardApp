@@ -1,0 +1,66 @@
+.KXP {
+  background-color: #a4261d;
+}
+
+.KKR {
+  background-color: #5755a7;
+}
+
+.RCB {
+  background-color: #d91c1f;
+}
+
+.CSK {
+  background-color: #f7db00;
+}
+
+.RR {
+  background-color: #da237b;
+}
+
+.MI {
+  background-color: #13418b;
+}
+
+.SH {
+  background-color: #f26d22;
+}
+
+.DC {
+  background-color: #4f5db0;
+}
+
+.match-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-img {
+  height: 30%;
+  width: 90%;
+  margin: 5%;
+}
+
+.team-matches-heading {
+  color: #ffffff;
+  font-size: 18px;
+  align-self: flex-start;
+  margin-left: 5%;
+}
+
+.match-card-list {
+  align-self: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+@media (min-width: 576px) {
+  .team-matches-heading {
+    margin-left: 10%;
+  }
+}

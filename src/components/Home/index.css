@@ -1,0 +1,36 @@
+.heading-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.logo-img {
+  height: 6%;
+  width: 6%;
+}
+
+.main-heading {
+  color: #ffffff;
+  font-size: 33px;
+  margin-left: 10px;
+}
+
+.teams-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .main-heading {
+    font-size: 50px;
+  }
+
+  .logo-img {
+    height: 4%;
+    width: 4%;
+  }
+}
